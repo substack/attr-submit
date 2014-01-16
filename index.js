@@ -1,8 +1,7 @@
 var isArray = require('isarray');
 
 module.exports = function (cb) {
-    return function (elem, attr) {
-        var key = elem.getAttribute(attr);
+    return function (elem, key) {
         elem.addEventListener('submit', function (ev) {
             ev.preventDefault();
             var fields = {};
