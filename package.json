@@ -1,0 +1,36 @@
+{
+  "name": "attr-submit",
+  "version": "0.0.0",
+  "description": "register form submit handlers by dom attributes",
+  "main": "index.js",
+  "dependencies": {
+    "isarray": "~0.0.1"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/attr-submit.git"
+  },
+  "homepage": "https://github.com/substack/attr-submit",
+  "keywords": [
+    "form",
+    "submit",
+    "submission",
+    "event",
+    "browser",
+    "dom",
+    "attr",
+    "attractor"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}
